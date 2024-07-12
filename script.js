@@ -1,3 +1,27 @@
+ScrollReveal().reveal('#my-dp', { 
+    interval:1500,
+    distance: '50px',
+    origin: 'left',
+    interval: 600,
+    mobile:true,
+});
+
+ScrollReveal().reveal('#my-de', { 
+    interval:2000,
+    distance: '50px',
+    origin: 'right',
+    interval: 600,
+    mobile:true,
+});
+
+ScrollReveal().reveal('.home-content', { 
+    interval:2500,
+    distance: '150px',
+    origin: 'bottom',
+    interval: 600,
+    mobile:true,
+});
+
 $(document).ready(function(){
     $(window).scroll(function(){
         // sticky navbar on scroll script
@@ -35,7 +59,7 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Front end developer","Fresher","Circuit Designer","Ui/Ux Designer", "Drone Piolet", "PCB Designer"],
+        strings: ["Front end developer","Fresher","Circuit Designer","Youtuber", "Drone Piolet", "PCB Designer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -48,7 +72,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Front end developer","Fresher","Circuit Designer","Ui/Ux Designer", "Drone Piolet", "PCB Designer"],
+        strings: ["Front end developer","Fresher","Circuit Designer","Youtuber", "Drone Piolet", "PCB Designer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true

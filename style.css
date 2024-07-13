@@ -611,7 +611,7 @@ footer h2
 #media {
     position: relative;
     display: flex;
-    gap: 40px;
+    gap: 20px;
 }
 #media li
 {

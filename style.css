@@ -895,7 +895,7 @@ footer .wave#wave4
     #media{
         width: 100%;
         display: inline-flex;
-        gap: 35px;
+        gap: 15px;
         right: 20px;
         /* left: -20px; */
     }

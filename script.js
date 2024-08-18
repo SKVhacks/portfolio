@@ -59,7 +59,7 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Front end developer","Fresher","Circuit Designer","Youtuber", "Drone Piolet", "PCB Designer"],
+        strings: ["Front end developer","Fresher","Circuit Designer", "PCB Designer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -72,7 +72,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Front end developer","Fresher","Circuit Designer","Youtuber", "Drone Piolet", "PCB Designer"],
+        strings: ["Front end developer","Fresher","Circuit Designer", "PCB Designer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true

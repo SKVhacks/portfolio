@@ -101,3 +101,12 @@ $(document).ready(function(){
         }
     });
 });
+
+// github card
+fetch("https://api.github.com/users/skvhacks")
+  .then(response => response.json())
+  .then(data => {
+    document.getElementById("repo").innerHTML= `<p> ${data.public_repos}</p>`;
+    document.getElementById("git-followers").innerHTML= `<p> ${data.followers}</p>`;
+  })
+  .catch(error => console.error("Error:", error));
